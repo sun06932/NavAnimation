@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20D302A33439E6D35B571675 /* libPods-NavAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62752FA039815AFAD7751407 /* libPods-NavAnimation.a */; };
+		A470D7661E2DC6F3007D9D3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A470D7651E2DC6F3007D9D3A /* main.m */; };
+		A470D7691E2DC6F3007D9D3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A470D7681E2DC6F3007D9D3A /* AppDelegate.m */; };
+		A470D76C1E2DC6F3007D9D3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A470D76B1E2DC6F3007D9D3A /* ViewController.m */; };
+		A470D76F1E2DC6F3007D9D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A470D76D1E2DC6F3007D9D3A /* Main.storyboard */; };
+		A470D7711E2DC6F3007D9D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A470D7701E2DC6F3007D9D3A /* Assets.xcassets */; };
+		A470D7741E2DC6F3007D9D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A470D7721E2DC6F3007D9D3A /* LaunchScreen.storyboard */; };
+		A470D77F1E2DC6F3007D9D3A /* NavAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A470D77E1E2DC6F3007D9D3A /* NavAnimationTests.m */; };
+		A470D78A1E2DC6F3007D9D3A /* NavAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A470D7891E2DC6F3007D9D3A /* NavAnimationUITests.m */; };
+		A470D7A41E2DE359007D9D3A /* NavAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A470D7A31E2DE359007D9D3A /* NavAnimation.m */; };
+		A470D7A71E2DE404007D9D3A /* SUNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A470D7A61E2DE404007D9D3A /* SUNNavigationController.m */; };
+		A470D7AA1E2DE5F6007D9D3A /* UICollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A470D7A81E2DE5F6007D9D3A /* UICollectionViewWaterfallLayout.m */; };
+		A470D7AE1E2DE66D007D9D3A /* OJLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A470D7AB1E2DE66D007D9D3A /* OJLCollectionViewCell.m */; };
+		A470D7AF1E2DE66D007D9D3A /* OJLCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A470D7AC1E2DE66D007D9D3A /* OJLCollectionViewCell.xib */; };
+		A470D7B21E2DE698007D9D3A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = A470D7B11E2DE698007D9D3A /* Model.m */; };
+		A4A2A9331E2DEDC900A4A386 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2A9321E2DEDC900A4A386 /* DetailViewController.m */; };
+		A4A2A9351E2DEF5100A4A386 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4A2A9341E2DEF5100A4A386 /* 1.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A470D77B1E2DC6F3007D9D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A470D7591E2DC6F3007D9D3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A470D7601E2DC6F3007D9D3A;
+			remoteInfo = NavAnimation;
+		};
+		A470D7861E2DC6F3007D9D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A470D7591E2DC6F3007D9D3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A470D7601E2DC6F3007D9D3A;
+			remoteInfo = NavAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62752FA039815AFAD7751407 /* libPods-NavAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NavAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A470D7611E2DC6F3007D9D3A /* NavAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A470D7651E2DC6F3007D9D3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A470D7671E2DC6F3007D9D3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A470D7681E2DC6F3007D9D3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A470D76A1E2DC6F3007D9D3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		A470D76B1E2DC6F3007D9D3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		A470D76E1E2DC6F3007D9D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A470D7701E2DC6F3007D9D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A470D7731E2DC6F3007D9D3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A470D7751E2DC6F3007D9D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A470D77A1E2DC6F3007D9D3A /* NavAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A470D77E1E2DC6F3007D9D3A /* NavAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavAnimationTests.m; sourceTree = "<group>"; };
+		A470D7801E2DC6F3007D9D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A470D7851E2DC6F3007D9D3A /* NavAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A470D7891E2DC6F3007D9D3A /* NavAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavAnimationUITests.m; sourceTree = "<group>"; };
+		A470D78B1E2DC6F3007D9D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A470D7971E2DE228007D9D3A /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		A470D7A21E2DE359007D9D3A /* NavAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavAnimation.h; sourceTree = "<group>"; };
+		A470D7A31E2DE359007D9D3A /* NavAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavAnimation.m; sourceTree = "<group>"; };
+		A470D7A51E2DE404007D9D3A /* SUNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUNNavigationController.h; sourceTree = "<group>"; };
+		A470D7A61E2DE404007D9D3A /* SUNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUNNavigationController.m; sourceTree = "<group>"; };
+		A470D7A81E2DE5F6007D9D3A /* UICollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		A470D7A91E2DE5F6007D9D3A /* UICollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		A470D7AB1E2DE66D007D9D3A /* OJLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OJLCollectionViewCell.m; sourceTree = "<group>"; };
+		A470D7AC1E2DE66D007D9D3A /* OJLCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OJLCollectionViewCell.xib; sourceTree = "<group>"; };
+		A470D7AD1E2DE66D007D9D3A /* OJLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OJLCollectionViewCell.h; sourceTree = "<group>"; };
+		A470D7B01E2DE698007D9D3A /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		A470D7B11E2DE698007D9D3A /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		A4A2A9311E2DEDC900A4A386 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A4A2A9321E2DEDC900A4A386 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A4A2A9341E2DEF5100A4A386 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		BA92FB2452DAB0BDB325B6FB /* Pods-NavAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavAnimation/Pods-NavAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		D60C8DF4D21EB269962EDBC7 /* Pods-NavAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavAnimation/Pods-NavAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A470D75E1E2DC6F3007D9D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D302A33439E6D35B571675 /* libPods-NavAnimation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A470D7771E2DC6F3007D9D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A470D7821E2DC6F3007D9D3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A00BFE672AC079D834E50A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62752FA039815AFAD7751407 /* libPods-NavAnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A470D7581E2DC6F3007D9D3A = {
+			isa = PBXGroup;
+			children = (
+				A470D7631E2DC6F3007D9D3A /* NavAnimation */,
+				A470D77D1E2DC6F3007D9D3A /* NavAnimationTests */,
+				A470D7881E2DC6F3007D9D3A /* NavAnimationUITests */,
+				A470D7621E2DC6F3007D9D3A /* Products */,
+				ED625D79552088AEFC0256AF /* Pods */,
+				1A00BFE672AC079D834E50A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A470D7621E2DC6F3007D9D3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A470D7611E2DC6F3007D9D3A /* NavAnimation.app */,
+				A470D77A1E2DC6F3007D9D3A /* NavAnimationTests.xctest */,
+				A470D7851E2DC6F3007D9D3A /* NavAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A470D7631E2DC6F3007D9D3A /* NavAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A470D7981E2DE2A8007D9D3A /* Model */,
+				A470D7991E2DE2A8007D9D3A /* View */,
+				A470D79A1E2DE2A8007D9D3A /* Controller */,
+				A470D79B1E2DE2A8007D9D3A /* NavigationController */,
+				A470D7671E2DC6F3007D9D3A /* AppDelegate.h */,
+				A470D7681E2DC6F3007D9D3A /* AppDelegate.m */,
+				A470D7971E2DE228007D9D3A /* Macros.h */,
+				A4A2A9341E2DEF5100A4A386 /* 1.plist */,
+				A470D76D1E2DC6F3007D9D3A /* Main.storyboard */,
+				A470D7701E2DC6F3007D9D3A /* Assets.xcassets */,
+				A470D7721E2DC6F3007D9D3A /* LaunchScreen.storyboard */,
+				A470D7751E2DC6F3007D9D3A /* Info.plist */,
+				A470D7641E2DC6F3007D9D3A /* Supporting Files */,
+			);
+			path = NavAnimation;
+			sourceTree = "<group>";
+		};
+		A470D7641E2DC6F3007D9D3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A470D7651E2DC6F3007D9D3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A470D77D1E2DC6F3007D9D3A /* NavAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A470D77E1E2DC6F3007D9D3A /* NavAnimationTests.m */,
+				A470D7801E2DC6F3007D9D3A /* Info.plist */,
+			);
+			path = NavAnimationTests;
+			sourceTree = "<group>";
+		};
+		A470D7881E2DC6F3007D9D3A /* NavAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A470D7891E2DC6F3007D9D3A /* NavAnimationUITests.m */,
+				A470D78B1E2DC6F3007D9D3A /* Info.plist */,
+			);
+			path = NavAnimationUITests;
+			sourceTree = "<group>";
+		};
+		A470D7981E2DE2A8007D9D3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A470D7B01E2DE698007D9D3A /* Model.h */,
+				A470D7B11E2DE698007D9D3A /* Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A470D7991E2DE2A8007D9D3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A470D7A91E2DE5F6007D9D3A /* UICollectionViewWaterfallLayout.h */,
+				A470D7A81E2DE5F6007D9D3A /* UICollectionViewWaterfallLayout.m */,
+				A470D7AD1E2DE66D007D9D3A /* OJLCollectionViewCell.h */,
+				A470D7AB1E2DE66D007D9D3A /* OJLCollectionViewCell.m */,
+				A470D7AC1E2DE66D007D9D3A /* OJLCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A470D79A1E2DE2A8007D9D3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A470D76A1E2DC6F3007D9D3A /* ViewController.h */,
+				A470D76B1E2DC6F3007D9D3A /* ViewController.m */,
+				A4A2A9311E2DEDC900A4A386 /* DetailViewController.h */,
+				A4A2A9321E2DEDC900A4A386 /* DetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A470D79B1E2DE2A8007D9D3A /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				A470D7A21E2DE359007D9D3A /* NavAnimation.h */,
+				A470D7A31E2DE359007D9D3A /* NavAnimation.m */,
+				A470D7A51E2DE404007D9D3A /* SUNNavigationController.h */,
+				A470D7A61E2DE404007D9D3A /* SUNNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		ED625D79552088AEFC0256AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D60C8DF4D21EB269962EDBC7 /* Pods-NavAnimation.debug.xcconfig */,
+				BA92FB2452DAB0BDB325B6FB /* Pods-NavAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A470D7601E2DC6F3007D9D3A /* NavAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A470D78E1E2DC6F3007D9D3A /* Build configuration list for PBXNativeTarget "NavAnimation" */;
+			buildPhases = (
+				7C93AA114CD14D5BF9C8EF75 /* [CP] Check Pods Manifest.lock */,
+				A470D75D1E2DC6F3007D9D3A /* Sources */,
+				A470D75E1E2DC6F3007D9D3A /* Frameworks */,
+				A470D75F1E2DC6F3007D9D3A /* Resources */,
+				C6A129325240F44F12C776C3 /* [CP] Embed Pods Frameworks */,
+				9D4F35D0B966667E0F5B2A89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavAnimation;
+			productName = NavAnimation;
+			productReference = A470D7611E2DC6F3007D9D3A /* NavAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A470D7791E2DC6F3007D9D3A /* NavAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A470D7911E2DC6F3007D9D3A /* Build configuration list for PBXNativeTarget "NavAnimationTests" */;
+			buildPhases = (
+				A470D7761E2DC6F3007D9D3A /* Sources */,
+				A470D7771E2DC6F3007D9D3A /* Frameworks */,
+				A470D7781E2DC6F3007D9D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A470D77C1E2DC6F3007D9D3A /* PBXTargetDependency */,
+			);
+			name = NavAnimationTests;
+			productName = NavAnimationTests;
+			productReference = A470D77A1E2DC6F3007D9D3A /* NavAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A470D7841E2DC6F3007D9D3A /* NavAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A470D7941E2DC6F3007D9D3A /* Build configuration list for PBXNativeTarget "NavAnimationUITests" */;
+			buildPhases = (
+				A470D7811E2DC6F3007D9D3A /* Sources */,
+				A470D7821E2DC6F3007D9D3A /* Frameworks */,
+				A470D7831E2DC6F3007D9D3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A470D7871E2DC6F3007D9D3A /* PBXTargetDependency */,
+			);
+			name = NavAnimationUITests;
+			productName = NavAnimationUITests;
+			productReference = A470D7851E2DC6F3007D9D3A /* NavAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A470D7591E2DC6F3007D9D3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "sunli-ang";
+				TargetAttributes = {
+					A470D7601E2DC6F3007D9D3A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A470D7791E2DC6F3007D9D3A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A470D7601E2DC6F3007D9D3A;
+					};
+					A470D7841E2DC6F3007D9D3A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A470D7601E2DC6F3007D9D3A;
+					};
+				};
+			};
+			buildConfigurationList = A470D75C1E2DC6F3007D9D3A /* Build configuration list for PBXProject "NavAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A470D7581E2DC6F3007D9D3A;
+			productRefGroup = A470D7621E2DC6F3007D9D3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A470D7601E2DC6F3007D9D3A /* NavAnimation */,
+				A470D7791E2DC6F3007D9D3A /* NavAnimationTests */,
+				A470D7841E2DC6F3007D9D3A /* NavAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A470D75F1E2DC6F3007D9D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A2A9351E2DEF5100A4A386 /* 1.plist in Resources */,
+				A470D7741E2DC6F3007D9D3A /* LaunchScreen.storyboard in Resources */,
+				A470D7711E2DC6F3007D9D3A /* Assets.xcassets in Resources */,
+				A470D7AF1E2DE66D007D9D3A /* OJLCollectionViewCell.xib in Resources */,
+				A470D76F1E2DC6F3007D9D3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A470D7781E2DC6F3007D9D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A470D7831E2DC6F3007D9D3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C93AA114CD14D5BF9C8EF75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4F35D0B966667E0F5B2A89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavAnimation/Pods-NavAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A129325240F44F12C776C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavAnimation/Pods-NavAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A470D75D1E2DC6F3007D9D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A470D76C1E2DC6F3007D9D3A /* ViewController.m in Sources */,
+				A470D7AA1E2DE5F6007D9D3A /* UICollectionViewWaterfallLayout.m in Sources */,
+				A4A2A9331E2DEDC900A4A386 /* DetailViewController.m in Sources */,
+				A470D7AE1E2DE66D007D9D3A /* OJLCollectionViewCell.m in Sources */,
+				A470D7B21E2DE698007D9D3A /* Model.m in Sources */,
+				A470D7691E2DC6F3007D9D3A /* AppDelegate.m in Sources */,
+				A470D7A41E2DE359007D9D3A /* NavAnimation.m in Sources */,
+				A470D7661E2DC6F3007D9D3A /* main.m in Sources */,
+				A470D7A71E2DE404007D9D3A /* SUNNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A470D7761E2DC6F3007D9D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A470D77F1E2DC6F3007D9D3A /* NavAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A470D7811E2DC6F3007D9D3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A470D78A1E2DC6F3007D9D3A /* NavAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A470D77C1E2DC6F3007D9D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A470D7601E2DC6F3007D9D3A /* NavAnimation */;
+			targetProxy = A470D77B1E2DC6F3007D9D3A /* PBXContainerItemProxy */;
+		};
+		A470D7871E2DC6F3007D9D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A470D7601E2DC6F3007D9D3A /* NavAnimation */;
+			targetProxy = A470D7861E2DC6F3007D9D3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A470D76D1E2DC6F3007D9D3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A470D76E1E2DC6F3007D9D3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A470D7721E2DC6F3007D9D3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A470D7731E2DC6F3007D9D3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A470D78C1E2DC6F3007D9D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A470D78D1E2DC6F3007D9D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A470D78F1E2DC6F3007D9D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60C8DF4D21EB269962EDBC7 /* Pods-NavAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunli-ang.NavAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A470D7901E2DC6F3007D9D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA92FB2452DAB0BDB325B6FB /* Pods-NavAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NavAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunli-ang.NavAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A470D7921E2DC6F3007D9D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NavAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunli-ang.NavAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavAnimation.app/NavAnimation";
+			};
+			name = Debug;
+		};
+		A470D7931E2DC6F3007D9D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NavAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunli-ang.NavAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavAnimation.app/NavAnimation";
+			};
+			name = Release;
+		};
+		A470D7951E2DC6F3007D9D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NavAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunli-ang.NavAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NavAnimation;
+			};
+			name = Debug;
+		};
+		A470D7961E2DC6F3007D9D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NavAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sunli-ang.NavAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NavAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A470D75C1E2DC6F3007D9D3A /* Build configuration list for PBXProject "NavAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A470D78C1E2DC6F3007D9D3A /* Debug */,
+				A470D78D1E2DC6F3007D9D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A470D78E1E2DC6F3007D9D3A /* Build configuration list for PBXNativeTarget "NavAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A470D78F1E2DC6F3007D9D3A /* Debug */,
+				A470D7901E2DC6F3007D9D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A470D7911E2DC6F3007D9D3A /* Build configuration list for PBXNativeTarget "NavAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A470D7921E2DC6F3007D9D3A /* Debug */,
+				A470D7931E2DC6F3007D9D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A470D7941E2DC6F3007D9D3A /* Build configuration list for PBXNativeTarget "NavAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A470D7951E2DC6F3007D9D3A /* Debug */,
+				A470D7961E2DC6F3007D9D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A470D7591E2DC6F3007D9D3A /* Project object */;
+}
