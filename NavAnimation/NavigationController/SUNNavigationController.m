@@ -21,39 +21,23 @@
 @implementation SUNNavigationController
 
 #pragma mark - 自定义back按钮
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // 设置interactivePopGestureRecognizer委托，自定义Back按钮，左侧滑返回
-    self.interactivePopGestureRecognizer.delegate = self;
-    // 设置导航栏字体风格
-    [self.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:17], NSForegroundColorAttributeName:HexRGB(0x4d4d4d)}];
-    
-}
-
-#pragma mark - 自定义back按钮
-
-- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    // 自定义back按钮
-    if (self.viewControllers.count != 0) {
-        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:iconBack] imageWithRenderingMode:(UIImageRenderingModeAlwaysOriginal)]  style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
-        // 隐藏tabBar当push
-        viewController.hidesBottomBarWhenPushed = YES;
-    }
-    [super pushViewController:viewController animated:animated];
-}
 
 // back按钮返回的事件
 - (void)backAction {
     [self popViewControllerAnimated:true];
 }
+#pragma mark - UIGestureRecognizerDelegate
+
+
+
 -(void)pushViewController:(UIViewController *)viewController
             withImageView:(UIImageView *)imageView
                  nextRext:(CGRect)nextRext
                  delegate:(id<NavAnimationDelegate>)delegate {
+    viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:iconBack] imageWithRenderingMode:(UIImageRenderingModeAlwaysOriginal)]  style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
     
     self.delegate = self;
     self.imageView = imageView;
-    
     CGRect frame = CGRectMake(0, 0, imageView.frame.size.width, imageView.frame.size.height);
     self.origionRect = [imageView convertRect:frame toView:self.view];
     

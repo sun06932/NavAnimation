@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-NavAnimation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>08021458289F2B9D789B3614B6F5C14D</key>
+		<key>183FFA569FCB886AF63E8E1C2176C98B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>33E74761C1020AFE73AFB564152938DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>AFAFB55453D161D2BB5CFB30C68A54D5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D5D72E2EF3EA82F7FAF333D8DE135362</key>
 		<dict>
 			<key>primary</key>
 			<true/>

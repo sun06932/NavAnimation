@@ -23,7 +23,7 @@
     return array;
 }
 -(CGSize)scaleSize{
-    CGFloat width = AdaptedW(325);
+    CGFloat width = AdaptedW(375);
     CGFloat scale = width / [self.w floatValue];
     CGFloat height = [self.h floatValue] * scale;
     

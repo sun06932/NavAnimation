@@ -9,6 +9,8 @@
 #import "DetailViewController.h"
 #import "UIImageView+WebCache.h"
 #import "SDWebImageManager.h"
+#import "Masonry.h"
+
 @interface DetailViewController ()
 @property (nonatomic, weak) UIImageView* avatarImageView;
 @property (nonatomic, weak) UIButton* followButton;
@@ -79,6 +81,17 @@
     contentImageView.frame = self.desImageViewRect;
     contentImageView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     
+    UILabel* contentLB = [[UILabel alloc] init];
+    self.contentLB = contentLB;
+    contentLB.font = [UIFont systemFontOfSize:12];
+    contentLB.textColor = [UIColor blackColor];
+    contentLB.numberOfLines = 0;
+    [scrollView addSubview:contentLB];
+    [contentLB mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(10);
+        make.width.mas_equalTo(scrollView.mas_width).offset(-20);
+        make.top.mas_equalTo(contentImageView.mas_bottom).offset(15);
+    }];
 }
 
 -(void)setModel:(Model *)model{
@@ -94,7 +107,6 @@
     [self.contentLB layoutIfNeeded];
     
     
-    [self.scrollView setContentSize:CGSizeMake(self.view.bounds.size.width, CGRectGetMaxY(self.contentLB.frame) + 20)];
 }
 
 -(CGSize)scaleSizeWithImage:(UIImage*)image{
